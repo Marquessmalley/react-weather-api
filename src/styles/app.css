@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 #555;
+  padding: 20px 10px;
+  border-radius: 15px;
+  width: 450px;
+  background-color: rgb(41, 39, 39);
+  color: white;
+}
+
+.appLabel {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.city-component {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+}
+.weather-component {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  width: 100%;
+}

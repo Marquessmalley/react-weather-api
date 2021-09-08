@@ -1,0 +1,29 @@
+.weatherLogo {
+  width: 140px;
+  height: 140px;
+  margin: 40px auto;
+}
+
+.chooseCitySpan {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  margin: 10px auto;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: row;
+}
+input {
+  padding: 5px;
+  font-size: 14px;
+}
+button {
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  background: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
